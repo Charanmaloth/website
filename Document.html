@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://127.0.0.1:5500/complexform.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <form>
+        <fieldset>
+             <legend>Personal Information </legend>
+             <label for="name">Name: </label>
+             <input type="text" name="name" id="name">
+             <label for="email1">Email: </label>
+             <input type="email" name="email1" id="email1">
+            
+             <label for="phone">Contact: </label>
+             <input type="tel" name="phone" id="phone">
+        
+             <label for="datepicker">Date Of Birth: </label>
+             <input type="date" name="datepicker" id="datepicker">
+            
+             <span>Gender: </span>
+             <input type="radio" name="gender" id="gender">
+             <label for="gender">Male</label>
+             <input type="radio" name="gender1" id="gender1">
+             <label for="gender1">Femle</label>
+             
+             <label for="country">Country: </label>
+             <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Pak">PAK</option>
+             </select>
+             <label for="Age">Age: </label>
+             <input type="number" name="Age" id="Age" min="0" max="99">
+        </fieldset>
+    
+        <br>
+        <fieldset>
+             <legend>Address </legend>
+             <label for="H-No">H-No: </label>
+             <input type="text" name="H-No" id="H-No">
+             <label for="street">Street: </label>
+             <input type="text" name="Street" id="Street">
+             <label for="City">City: </label>
+             <input type="text" name="City" id="City">
+             <label for="State">State: </label>
+             <input type="text" name="State" id="State">
+             <label for="pincode">Pincode: </label>
+             <input type="tel" name="pincode" id="pincode">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Other Information </legend>
+            <label for="comment">Comment </label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            <br>
+            <label for="agree">Agree </label>
+            <input type="checkbox" name="agree" id="agree">
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+
+</body></html>

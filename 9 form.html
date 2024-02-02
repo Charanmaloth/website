@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Event Registration </h2>
+    <form>
+        <label for="userinput">Name: </label>
+        <input type="text" name="userinput" id="userinput" placeholder="Ex:Charan">
+        <br>
+        <br>
+        <label for="emailid">Email: </label>
+        <input type="email" name="emailid" id="emailid" placeholder="abcd@gmail.com">
+        <br>
+        <br>
+        <label for="phnNum">Contact: </label>
+        <input type="tel" name="phnNum" id="phnNum" placeholder="9988776655">
+        <br>
+        <br>
+        <label for="Gender">Gender: </label>
+        <select name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Prefer to not say">Prefer to not say</option>
+        </select>
+        <br>
+        <br>
+        <label for="Occupation">Occupation: </label>
+        <select name="Occupation" id="Occupation">
+            <option value="select">Select </option>
+            <option value="Student">Student</option>
+            <option value="Proffesional">Proffesional</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <br>
+        <label for="Photo">Photo: </label>
+        <input type="file" name="Photo" id="Photo">
+        <br>
+        <br>
+        <label for="Age">Age(in years): </label>
+        <input type="number" name="Age" id="Age" min="0" max="99">
+        <br>
+        <br>
+        <label for="datepicker">Select date: </label>
+        <input type="date" name="datepicker" id="datepicker">
+        <br>
+        <br>
+        <fieldset>
+            <legend><b>Trip To Medaram Status </b></legend>
+            <label for="ck">Coming</label>
+            <input type="checkbox" name="ck" id="ck">
+            <br>
+            <label for="ck1">Not Coming</label>
+            <input type="checkbox" name="ck1" id="ck1">
+            <br>
+            <label for="ck2">Thinking</label>
+            <input type="checkbox" name="ck2" id="ck2">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Coming by: </legend>
+             <label for="xyz">DCM</label>
+             <input type="radio" name="xyz" id="xyz">
+             <br>
+             <label for="xyz">Car</label>
+             <input type="radio" name="xyz" id="xyz">
+             <br>
+             <label for="xyz">Bus</label>
+             <input type="radio" name="xyz" id="xyz">
+        </fieldset>
+        <label for="comments">Feedback: </label>
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="button" value="Register">
+    </form>
+</body>
+</html>
